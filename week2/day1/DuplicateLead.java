@@ -42,6 +42,7 @@ public class DuplicateLead {
 		driver.findElement(By.id("createLeadForm_firstName")).sendKeys("New Name");
 		driver.findElement(By.name("submitButton")).click();
 		System.out.println(driver.getTitle());
+		driver.close();
 
 	}
 
